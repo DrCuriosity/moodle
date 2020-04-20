@@ -241,7 +241,7 @@ class chart_base implements JsonSerializable, renderable {
      * this method. These config options must be set directly within Javascript
      * on the page.
      *
-     * @param bool $legend Whether or not to display the chart's legend.
+     * @param array $legendoptions Whether or not to display the chart's legend.
      */
     public function set_legend_options(array $legendoptions) {
         $this->legendoptions = $legendoptions;
